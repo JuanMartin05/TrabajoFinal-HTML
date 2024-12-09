@@ -1,7 +1,7 @@
 /*Pagina Principal*/
 
 body {
-    background-image: url(GOKU\ FONDO.gif);
+    background-image: url("../Imagenes/GOKU FONDO.gif");
     margin: 0;
     align-items: center;
     background-repeat: no-repeat;
@@ -9,7 +9,7 @@ body {
 }
 
 .Pagina1 {
-    background-image: url(PAGINA\ DRABON\ BALL\ fondo.gif);
+    background-image: url(../Imagenes/PAGINA\ DRABON\ BALL\Imagenes/fondo.gif);
     margin: 0;
     align-items: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
 
 .header {
     background-color: #e97c00c4;
-    background-image: url(FONDO.jpg);
+    background-image: url(../Imagenes/FONDO.jpg);
     padding: 10px 20px;
     display: flex;
     align-items: center;
@@ -99,7 +99,7 @@ h1 {
     font-size: 500%;
     text-shadow: 0px 0px 10px #dd8501c9;
     font-family: 'Roboto', sans-serif;
-    background-image: url(GIF\ GALAXIA.gif);
+    background-image: url(../Imagenes/GIF\ GALAXIA.gif);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgba(0, 0, 0, 0.445);
@@ -155,7 +155,7 @@ a {
 /*paginaZ */
 
 .body2 {
-    background-image: url(GOKUFONDOZ.gif);
+    background-image: url(../Imagenes/GOKUFONDOZ.gif);
     margin: 0;
     align-items: center;
     background-repeat: no-repeat;
@@ -248,7 +248,7 @@ h2 {
 
 /* PAGINA Enemigo */
 .body3 {
-    background-image: url(GIF\ GALAXIA.gif);
+    background-image: url(../Imagenes/GIF\ GALAXIA.gif);
     margin: 0;
     align-items: center;
     background-repeat: no-repeat;
@@ -303,7 +303,7 @@ h2 {
 
 .header3 {
     background-color: #0269cae0;
-    background-image: url(FONDO.jpg);
+    background-image: url(../Imagenes/FONDO.jpg);
     padding: 10px 20px;
     display: flex;
     align-items: center;
@@ -374,7 +374,7 @@ button[type="submit"]:hover {
 
 /* PAGINA Dragon ball*/
 .body1 {
-    background-image: url(PAGINA\ DRABON\ BALL\ fondo.gif);
+    background-image: url(../Imagenes/PAGINA\ DRABON\ BALL\ fondo.gif);
     margin: 0;
     align-items: center;
     background-repeat: no-repeat;
@@ -453,7 +453,7 @@ button[type="submit"]:hover {
 
 /* PAGINA DBS */
 .body4 {
-    background-image: url(FREZEER\ SUPER.gif);
+    background-image: url(../Imagenes/FREZEER\ SUPER.gif);
     margin: 0;
     align-items: center;
     background-repeat: no-repeat;
@@ -531,7 +531,7 @@ button[type="submit"]:hover {
 
 /* PAGINA GT */
 .body5 {
-    background-image: url(GOGETAFONDO.gif);
+    background-image: url(../Imagenes/GOKU\ GT.gif);
     margin: 0;
     align-items: center;
     background-repeat: no-repeat;
