@@ -1,0 +1,609 @@
+/*Pagina Principal*/
+
+body {
+    background-image: url(GOKU\ FONDO.gif);
+    margin: 0;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Pagina1 {
+    background-image: url(PAGINA\ DRABON\ BALL\ fondo.gif);
+    margin: 0;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background-color: #e97c00c4;
+    background-image: url(FONDO.jpg);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header img {
+    height: 40px;
+    margin-right: 15px;
+}
+
+.nav-bar {
+    background-color: #ff9800;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid #ca6302;
+}
+
+.nav-bar a {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.nav-bar a:hover {
+    color: #ffd740;
+    transform: scale(1.1);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+.cuadraito {
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.849);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(224, 120, 0, 0.808);
+    width: 420px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: transform 0.3s, background-color 0.3s;
+    flex-shrink: 0;
+}
+
+.cuadraito:hover {
+    transform: scale(1.05);
+    background-color: rgba(224, 157, 80, 0.849)
+}
+
+.cuadraito img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 2px solid #e97c00;
+    box-shadow: 0 0 15px rgba(224, 120, 0, 0.7);
+    border-radius: 8px;
+}
+
+.cuadraitos {
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 500%;
+    text-shadow: 0px 0px 10px #dd8501c9;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(GIF\ GALAXIA.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgba(0, 0, 0, 0.445);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 115%;
+}
+
+ul {
+    color: rgba(0, 0, 0, 0.288);
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(93, 125, 212);
+}
+
+footer {
+    background-color: #dd8501c9;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px;
+}
+
+.iconos {
+    margin-top: 10px;
+}
+
+.iconosredes {
+    width: 25px;
+    height: 25px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*paginaZ */
+
+.body2 {
+    background-image: url(GOKUFONDOZ.gif);
+    margin: 0;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cuadraitos {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 40px;
+}
+
+.cuadraito2 {
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.849);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #0245a8e0;
+    width: 420px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: transform 0.3s, background-color 0.3s;
+    text-shadow: 0px 0px 10px #0b56c5ce;
+    flex-shrink: 0;
+}
+
+.cuadraito2:hover {
+    transform: scale(1.03);
+    background-color: #0b5dd8e0;
+}
+
+.cuadraito2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 2px solid #0245a8e0;
+    box-shadow: 0 0 15px #0245a8e0;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.footer2 {
+    background-color: #0245a8e0;
+    display: flex;
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.nav-bar2 {
+    background-color:  #0245a8e0;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid  #0245a8e0;
+}
+
+.nav-bar2 a {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.nav-bar2 a:hover {
+    color:  #ca6302e8;
+    transform: scale(1.1);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* PAGINA Enemigo */
+.body3 {
+    background-image: url(GIF\ GALAXIA.gif);
+    margin: 0;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.battle-table {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    box-shadow: 0 5px 15px #ff9100e8;
+}
+
+.battle-table thead {
+    background-color: #ca6302e8;
+    color: #fff;
+}
+
+.battle-table th,.battle-table td {
+    background-color: #ffb920be;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+
+.battle-table tr:hover {
+    background-color: #ffddcc;
+}
+
+.battle-table a {
+    color: #ca6302;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.battle-table a:hover {
+    text-decoration: underline;
+}
+
+.footer3 {
+    background-color: #0269cae0;
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.header3 {
+    background-color: #0269cae0;
+    background-image: url(FONDO.jpg);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar3 {
+    background-color: #0269cae0;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.feedback-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feedback-section h2 {
+    color: #ca6302;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.feedback-options {
+    margin: 15px 0;
+}
+
+.feedback-options label {
+    margin-right: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #ca6302;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff9900;
+}
+
+
+
+/* PAGINA Dragon ball*/
+.body1 {
+    background-image: url(PAGINA\ DRABON\ BALL\ fondo.gif);
+    margin: 0;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer1 {
+    background-color: #0269cae0;
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.nav-bar1 {
+    background-color: #ff9800;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid #ca6302;
+}
+
+.nav-bar1 a {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.nav-bar1 a:hover {
+    color: #ca6302e8;
+    transform: scale(1.1);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+.cuadraito1 {
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.849);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #ca6302e8;
+    width: 420px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: transform 0.3s, background-color 0.3s;
+    text-shadow: 0px 0px 10px #dd8501c9;
+    flex-shrink: 0;
+}
+
+.cuadraito1:hover {
+    transform: scale(1.03);
+    background-color: #dd7513d0;
+}
+
+.cuadraito1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 2px solid #ca6302e8;
+    box-shadow: 0 0 15px #ca6302e8;
+    border-radius: 8px;
+}
+
+/* PAGINA DBS */
+.body4 {
+    background-image: url(FREZEER\ SUPER.gif);
+    margin: 0;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer4 {
+    background-color: #6902cad3;
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.nav-bar4 {
+    background-color:  #6902cad3;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid  #6902cad3;
+}
+
+.nav-bar4 a {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.nav-bar4 a:hover {
+    color:  #ca6302e8;
+    transform: scale(1.1);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.cuadraito4 {
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.849);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #6902cad3;
+    width: 420px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: transform 0.3s, background-color 0.3s;
+    text-shadow: 0px 0px 10px #791ce4c9;
+    flex-shrink: 0;
+}
+
+.cuadraito4:hover {
+    transform: scale(1.03);
+    background-color: #944adadc;
+}
+
+.cuadraito4 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 2px solid #6902cad3;
+    box-shadow: 0 0 15px #6902cad3;
+    border-radius: 8px;
+}
+
+/* PAGINA GT */
+.body5 {
+    background-image: url(GOGETAFONDO.gif);
+    margin: 0;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer5 {
+    background-color: #caac02d7;
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+.nav-bar5 {
+    background-color: #caac02d7;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-bottom: 3px solid #caac02d7
+}
+
+.nav-bar5 a {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s, transform 0.2s;
+}
+
+.nav-bar5 a:hover {
+    color: #ca6302e8;
+    transform: scale(1.1);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.cuadraito5 {
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.849);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(247, 212, 15, 0.808);
+    width: 420px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    transition: transform 0.3s, background-color 0.3s;
+    flex-shrink: 0;
+    text-shadow: 0px 0px 10px #d4c53ebe;
+}
+
+.cuadraito5:hover {
+    transform: scale(1.03);
+    background-color: rgba(224, 214, 80, 0.849)
+}
+
+.cuadraito5 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: 2px solid #e9da00;
+    box-shadow: 0 0 15px #e9da00b2;
+    border-radius: 8px;
+}
